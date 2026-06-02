@@ -10,7 +10,7 @@ Designed to help developers showcase their projects, skills, and experience with
 
 ## 📸 Preview
 
-![Portfolio Preview](https://namish-yadav.github.io/first-portfolio/preview.png)
+![Portfolio Preview](./preview.png)
 
 ## ✨ Features
 
