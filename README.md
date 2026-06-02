@@ -1,60 +1,60 @@
-# 🚀 Modern Developer Portfolio
+# 🚀 Namish's Portfolio
 
-A modern, animated, and fully responsive developer portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **GSAP**.
+A modern, responsive, and animated developer portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **GSAP**.
 
-Designed to help developers showcase their projects, skills, and experience with a polished UI, smooth animations, and excellent performance.
+Designed to showcase projects, skills, and experience through smooth animations, interactive UI components, and a clean user experience.
 
 ## 🌐 Live Demo
 
-🔗 https://namish-yadav.github.io/portfolio/
+**Portfolio Website:**
+https://namish-yadav.github.io/Portfolio/
 
 ## 📸 Preview
 
-![Portfolio Preview](./preview.png)
+![Portfolio Preview](https://raw.githubusercontent.com/namish-yadav/Portfolio/main/public/preview.png)
 
 ## ✨ Features
 
-* Modern and responsive design
-* Smooth GSAP animations
-* Interactive UI components
-* Mobile-first experience
-* Dark theme interface
-* Optimized performance
-* Reusable component architecture
-* Easy customization
-* SEO-friendly structure
-* Built with modern web technologies
+* Modern UI/UX
+* Fully Responsive Design
+* Smooth GSAP Animations
+* Interactive Components
+* Fast Performance
+* Mobile Friendly
+* SEO Optimized
+* Reusable Architecture
+* Easy Customization
 
 ## 🛠️ Tech Stack
 
 * Next.js
-* TypeScript
 * React
+* TypeScript
 * Tailwind CSS
 * GSAP
 * Lucide React
 
 ## 🚀 Getting Started
 
-Clone the repository:
+### Clone the repository
 
 ```bash
-git clone https://github.com/namish-yadav/portfolio.git
+git clone https://github.com/namish-yadav/Portfolio.git
 ```
 
-Navigate to the project:
+### Navigate to the project
 
 ```bash
-cd portfolio-website-build
+cd Portfolio
 ```
 
-Install dependencies:
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### Run development server
 
 ```bash
 npm run dev
@@ -62,31 +62,35 @@ npm run dev
 
 Open:
 
-```bash
+```text
 http://localhost:3000
 ```
 
 ## 📂 Project Structure
 
 ```text
-app/
-components/
-hooks/
-public/
-styles/
+Portfolio/
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── public/
+├── styles/
+└── README.md
 ```
 
 ## 🎨 Customization
 
-You can easily customize:
+You can easily modify:
 
-* Personal information
+* Hero Section
+* About Section
 * Projects
 * Skills
-* Social links
-* Resume
-* Contact details
-* Colors and animations
+* Social Links
+* Contact Information
+* Resume Links
+* Colors and Animations
 
 ## 🤝 Contributing
 
@@ -94,13 +98,20 @@ Contributions, issues, and feature requests are welcome.
 
 Feel free to fork the repository and submit a pull request.
 
-## ⭐ Show Your Support
+## ⭐ Support
 
-If you found this project useful:
+If you like this project:
 
-* Star the repository
-* Fork the project
-* Share it with others
+* ⭐ Star the repository
+* 🍴 Fork the repository
+* 🐛 Report issues
+* 🚀 Share it with others
+
+## 📬 Connect With Me
+
+* GitHub: https://github.com/namish-yadav
+* Portfolio: https://namish-yadav.github.io/Portfolio/
+* Instagram: https://instagram.com/namishyadv
 
 ## 📄 License
 
@@ -108,9 +119,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Built with ❤️ by Namish Yadav
-
-### Connect With Me
-
-* GitHub: https://github.com/namish-yadav
-* Portfolio: https://namish-yadav.github.io/first-portfolio/
+Built with ❤️ by **Namish Yadav**
