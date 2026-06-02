@@ -6,7 +6,7 @@ Designed to help developers showcase their projects, skills, and experience with
 
 ## 🌐 Live Demo
 
-🔗 https://namish-yadav.github.io/first-portfolio/
+🔗 https://namish-yadav.github.io/portfolio/
 
 ## 📸 Preview
 
@@ -39,7 +39,7 @@ Designed to help developers showcase their projects, skills, and experience with
 Clone the repository:
 
 ```bash
-git clone https://github.com/namish-yadav/portfolio-website-build.git
+git clone https://github.com/namish-yadav/portfolio.git
 ```
 
 Navigate to the project:
