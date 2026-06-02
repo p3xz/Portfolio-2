@@ -1,13 +1,12 @@
-# 🚀 Namish's Portfolio
+# 🚀 Namish Yadav Portfolio
 
-A modern, responsive, and animated developer portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **GSAP**.
+A modern developer portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and interactive UI animations.
 
-Designed to showcase projects, skills, and experience through smooth animations, interactive UI components, and a clean user experience.
+This project showcases my skills, projects, and journey as a software developer while focusing on performance, responsive design, and user experience.
 
 ## 🌐 Live Demo
 
-**Portfolio Website:**
-https://namish-yadav.github.io/Portfolio/
+**Website:** https://portfolio-rho-lake-21.vercel.app/
 
 ## 📸 Preview
 
@@ -15,15 +14,16 @@ https://namish-yadav.github.io/Portfolio/
 
 ## ✨ Features
 
-* Modern UI/UX
-* Fully Responsive Design
-* Smooth GSAP Animations
-* Interactive Components
-* Fast Performance
-* Mobile Friendly
-* SEO Optimized
-* Reusable Architecture
-* Easy Customization
+* Modern and responsive design
+* Smooth animations and transitions
+* Interactive UI components
+* Mobile-first approach
+* Fast page loading
+* SEO-friendly structure
+* Project showcase section
+* About Me section
+* Contact page
+* Clean and scalable codebase
 
 ## 🛠️ Tech Stack
 
@@ -32,39 +32,8 @@ https://namish-yadav.github.io/Portfolio/
 * TypeScript
 * Tailwind CSS
 * GSAP
-* Lucide React
-
-## 🚀 Getting Started
-
-### Clone the repository
-
-```bash
-git clone https://github.com/namish-yadav/Portfolio.git
-```
-
-### Navigate to the project
-
-```bash
-cd Portfolio
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Run development server
-
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:3000
-```
+* Git & GitHub
+* Vercel
 
 ## 📂 Project Structure
 
@@ -76,20 +45,52 @@ Portfolio/
 ├── lib/
 ├── public/
 ├── styles/
+├── package.json
 └── README.md
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/namish-yadav/Portfolio.git
+```
+
+Navigate into the project:
+
+```bash
+cd Portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
 ```
 
 ## 🎨 Customization
 
-You can easily modify:
+You can easily customize:
 
-* Hero Section
-* About Section
-* Projects
+* Personal Information
 * Skills
+* Projects
 * Social Links
-* Contact Information
-* Resume Links
+* Resume
+* Contact Details
 * Colors and Animations
 
 ## 🤝 Contributing
@@ -100,23 +101,24 @@ Feel free to fork the repository and submit a pull request.
 
 ## ⭐ Support
 
-If you like this project:
+If you found this project useful:
 
-* ⭐ Star the repository
-* 🍴 Fork the repository
-* 🐛 Report issues
-* 🚀 Share it with others
+* Star the repository
+* Fork the repository
+* Share it with other developers
 
 ## 📬 Connect With Me
 
 * GitHub: https://github.com/namish-yadav
-* Portfolio: https://namish-yadav.github.io/Portfolio/
+* Portfolio: https://portfolio-rho-lake-21.vercel.app/
 * Instagram: https://instagram.com/namishyadv
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+Licensed under the MIT License.
 
 ---
 
 Built with ❤️ by **Namish Yadav**
+
+> "Code. Learn. Build. Repeat."
