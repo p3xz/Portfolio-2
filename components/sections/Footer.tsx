@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Instagram, Globe, Mail, Heart } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
               Namish<span className="text-[#e945f5]">.</span>
             </span>
             <p className="text-neutral-500 text-sm flex items-center gap-1">
-              Made with <Heart className="w-3 h-3 text-[#e945f5] fill-[#e945f5]" /> in 2026
+              Made by Namish <Heart className="w-3 h-3 text-[#e945f5] fill-[#e945f5]" /> 2026
             </p>
           </div>
 
@@ -21,6 +21,7 @@ export default function Footer() {
             <a href="#about" className="hover:text-white transition-colors">About</a>
             <a href="#projects" className="hover:text-white transition-colors">Projects</a>
             <a href="./contact" className="hover:text-white transition-colors">Contact</a>
+            <a href="./privacy" className="hover:text-white transition-colors">Privacy</a>
           </div>
 
           {/* Social Links */}
@@ -35,13 +36,31 @@ export default function Footer() {
               <Github className="w-4 h-4 text-neutral-400 hover:text-white" />
             </a>
             <a 
-              href="https://linkedin.com/in/namish-yadav" 
+              href="https://linkedin.com/in/namish-yadav-639769408" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
               aria-label="LinkedIn"
             >
               <Linkedin className="w-4 h-4 text-neutral-400 hover:text-white" />
+            </a>
+            <a 
+              href="https://instagram.com/nam7sh" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-4 h-4 text-neutral-400 hover:text-white" />
+            </a>
+            <a 
+              href="https://namishhh.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
+              aria-label="Portfolio"
+            >
+              <Globe className="w-4 h-4 text-neutral-400 hover:text-white" />
             </a>
             <a 
               href="mailto:nam4sh@gmail.com"
