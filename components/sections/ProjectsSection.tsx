@@ -487,7 +487,7 @@ export default function ProjectsSection() {
   }, []);
 
   useEffect(() => {
-    fetch('https://api.github.com/users/namish-yadav/repos?sort=updated&per_page=12')
+    fetch('https://api.github.com/users/p3xz/repos?sort=updated&per_page=12')
       .then(r => r.json())
       .then((data: Repo[]) => {
         setRepos(data.filter(r => !r.fork).slice(0, 6));
@@ -531,7 +531,7 @@ export default function ProjectsSection() {
         {/* CTA */}
         <div className="mt-12 text-center">
           <a
-            href="https://github.com/namish-yadav"
+            href="https://github.com/p3xz"
             target="_blank"
             rel="noopener noreferrer"
             style={{

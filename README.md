@@ -10,7 +10,7 @@ This project showcases my skills, projects, and journey as a software developer 
 
 ## 📸 Preview
 
-![Portfolio Preview](https://raw.githubusercontent.com/namish-yadav/Portfolio/main/public/preview.png)
+![Portfolio Preview](https://raw.githubusercontent.com/p3xz/Portfolio-2/main/preview.png)
 
 ## ✨ Features
 
@@ -54,7 +54,7 @@ Portfolio/
 Clone the repository:
 
 ```bash
-git clone https://github.com/namish-yadav/Portfolio.git
+git clone https://github.com/p3xz/Portfolio-2.git
 ```
 
 Navigate into the project:
@@ -109,7 +109,7 @@ If you found this project useful:
 
 ## 📬 Connect With Me
 
-* GitHub: https://github.com/namish-yadav
+* GitHub: https://github.com/p3xz
 * Portfolio: https://portfolio-rho-lake-21.vercel.app/
 * Instagram: https://instagram.com/namishyadv
 

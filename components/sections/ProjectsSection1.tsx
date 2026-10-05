@@ -30,7 +30,7 @@ export default function ProjectsSection() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/namish-yadav/repos?sort=updated&per_page=12")
+    fetch("https://api.github.com/users/p3xz/repos?sort=updated&per_page=12")
       .then((res) => res.json())
       .then((data: Repo[]) => {
         const ownRepos = data.filter((r) => !r.fork).slice(0, 6);
@@ -139,7 +139,7 @@ export default function ProjectsSection() {
 
         <div className="mt-12 text-center">
           
-            href="https://github.com/namish-yadav"
+            href="https://github.com/p3xz"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-white/20 text-white hover:border-[#e945f5] hover:text-[#e945f5] transition-all duration-300"

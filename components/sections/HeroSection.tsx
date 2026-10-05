@@ -56,7 +56,7 @@ export default function HeroSection() {
 
           <div className="flex items-center gap-4 mt-6">
             <a 
-              href="https://github.com/namish-yadav" 
+              href="https://github.com/p3xz" 
               target="_blank" rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
               aria-label="GitHub"

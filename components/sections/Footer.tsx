@@ -26,7 +26,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-3">
             <a 
-              href="https://github.com/namish-yadav" 
+              href="https://github.com/p3xz" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
