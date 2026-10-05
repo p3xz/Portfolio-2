@@ -262,6 +262,18 @@ const updateCardGlow = (card: HTMLElement, mx: number, my: number, intensity: nu
 
 // ─── ParticleCard ─────────────────────────────────────────────────────────────
 
+const usePrefersReducedMotion = () => {
+  const [reduce, setReduce] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setReduce(mq.matches);
+    const onChange = (e: MediaQueryListEvent) => setReduce(e.matches);
+    mq.addEventListener('change', onChange);
+    return () => mq.removeEventListener('change', onChange);
+  }, []);
+  return reduce;
+};
+
 interface ParticleCardProps {
   children: ReactNode;
   className?: string;
@@ -277,6 +289,8 @@ const ParticleCard = ({ children, className = '', style, disabled = false, onCli
   const hoveredRef = useRef(false);
   const memoRef = useRef<HTMLElement[]>([]);
   const initRef = useRef(false);
+  const reduceMotion = usePrefersReducedMotion();
+  const animationsOff = disabled || reduceMotion;
 
   const init = useCallback(() => {
     if (initRef.current || !ref.current) return;
@@ -314,7 +328,7 @@ const ParticleCard = ({ children, className = '', style, disabled = false, onCli
   }, [init]);
 
   useEffect(() => {
-    if (disabled || !ref.current) return;
+    if (animationsOff || !ref.current) return;
     const el = ref.current;
 
     const onEnter = () => { hoveredRef.current = true; spawn(); };
@@ -340,10 +354,26 @@ const ParticleCard = ({ children, className = '', style, disabled = false, onCli
       hoveredRef.current = false;
       clear();
     };
-  }, [disabled, spawn, clear]);
+  }, [animationsOff, spawn, clear]);
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (!onClick) return;
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onClick(e as unknown as React.MouseEvent<HTMLDivElement>);
+    }
+  };
 
   return (
-    <div ref={ref} className={className} style={{ ...style, position: 'relative', overflow: 'hidden' }} onClick={onClick}>
+    <div
+      ref={ref}
+      className={className}
+      style={{ ...style, position: 'relative', overflow: 'hidden' }}
+      onClick={onClick}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={handleKeyDown}
+    >
       {children}
     </div>
   );
