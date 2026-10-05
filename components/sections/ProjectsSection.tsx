@@ -422,7 +422,7 @@ const RepoCard = ({ repo, isMobile }: { repo: Repo; isMobile: boolean }) => {
               className="pb-card__live"
               onClick={e => e.stopPropagation()}
             >
-              Live ↗
+              Live
             </a>
           )}
         </div>
@@ -447,8 +447,8 @@ const RepoCard = ({ repo, isMobile }: { repo: Repo; isMobile: boolean }) => {
             {repo.language}
           </span>
         )}
-        <span>★ {repo.stargazers_count}</span>
-        <span>⑂ {repo.forks_count}</span>
+        <span>Stars: {repo.stargazers_count}</span>
+        <span>Forks: {repo.forks_count}</span>
       </div>
     </>
   );
@@ -555,7 +555,7 @@ export default function ProjectsSection() {
               (e.currentTarget as HTMLAnchorElement).style.color = '#fff';
             }}
           >
-            View all on GitHub →
+            View all on GitHub
           </a>
         </div>
       </div>

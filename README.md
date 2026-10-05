@@ -1,18 +1,18 @@
-# 🚀 Namish Yadav Portfolio
+# Namish Yadav Portfolio
 
 A modern developer portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and interactive UI animations.
 
 This project showcases my skills, projects, and journey as a software developer while focusing on performance, responsive design, and user experience.
 
-## 🌐 Live Demo
+## Live Demo
 
 **Website:** https://portfolio-rho-lake-21.vercel.app/
 
-## 📸 Preview
+## Preview
 
 ![Portfolio Preview](https://raw.githubusercontent.com/p3xz/Portfolio-2/main/preview.png)
 
-## ✨ Features
+## Features
 
 * Modern and responsive design
 * Smooth animations and transitions
@@ -25,7 +25,7 @@ This project showcases my skills, projects, and journey as a software developer 
 * Contact page
 * Clean and scalable codebase
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Next.js
 * React
@@ -35,7 +35,7 @@ This project showcases my skills, projects, and journey as a software developer 
 * Git & GitHub
 * Vercel
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Portfolio/
@@ -49,7 +49,7 @@ Portfolio/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository:
 
